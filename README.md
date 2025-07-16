@@ -6,7 +6,8 @@ To modify the ray marcher you can edit the shader.frag file inside the shaders d
 You can also pass additional uniform variables to the shader by defifnin a variable inside shader.frag and from the cpu side calling shader.uniformXX(char* name, ...);
 Note: not all functions to upload all kinds of uniforms are implemented, but it is easy to implement them yourself if you wish to
 To do this check the dacumentation on: https://registry.khronos.org/OpenGL-Refpages/gl4/
-You can call the povided Shader::uniformLocation(char\* name) to cache the uniforms location like the already implemented functions do
+
+You can call the povided Shader::uniformLocation(char\* name) function to cache the uniforms location like the already implemented functions do
 
 # Dependencies
 This project uses glfw, glew and glm.
